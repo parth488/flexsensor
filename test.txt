@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css"></link>
+  <script src="script.js"></script>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script>
+  var soundID = "alarm_tone";
+  
+
+
+  function loadSound () {
+    createjs.Sound.registerSound("alarm.mp3", soundID);
+    
+  }
+
+  function playSound () {
+    createjs.Sound.play(soundID);
+  }
+  
+</script>
+</head>
+<body>
+  <div id="speed_display" onclick="playSound()>
+    <span class="speed" id="speed_guage">Speed_Val</span>
+  </div>
+  <div id="timer_console">
+    <span class="time" id="display">00:00:00</span>
+  </div>
+
+    
+<div id="hks" onclick="request_fullscreen(),loadSound()">
+
+
+------
+
+
+<div id="start_button">
+  <img src="startbutton.png" onclick="start()"> 
+</div>
+<div id="pause_button">
+<img src="pausebutton.png" onclick="pause()"> 
+</div>
+</body>
+</html>

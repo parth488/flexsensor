@@ -1,0 +1,52 @@
+
+/* viewBox="0 0 1164.85 1111.11" */
+/* 1.04837 */
+
+/* viewBox="0 0 629.019629 600" */
+
+/* #hks{
+  width: 600px;
+  height: auto;
+} */
+
+body{background-color:black;}
+
+#speed_guage{
+
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 190px;
+}
+
+#speed_display{
+  color:#e60000;
+  font-size: 130px;
+  /* padding-bottom: 15px;
+  padding-right: 10px; */
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -20px;
+}
+
+
+
+#temp_display{
+  color:whitesmoke;
+  font-size: 130px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 185px;
+}
+
+/* #display{
+  color: white;
+    font-size: 50px;
+    font-family: 'Contrail One', cursive;
+    margin-left:85px;
+    border-style: solid;
+    border-color:#e3e3e3;
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 190px;
+    
+} */
