@@ -50,3 +50,10 @@ body{background-color:black;}
     margin-left: 190px;
     
 } */
+
+@font-face {
+  
+  src: url('http://fonts.cdnfonts.com/css/ds-digital');
+  font-family: 'DS-Digital', sans-serif;
+                                                
+}
