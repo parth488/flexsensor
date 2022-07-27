@@ -21,6 +21,7 @@ body{background-color:black;}
 #speed_display{
   color:#e60000;
   font-size: 130px;
+  font-weight: bold;
   /* padding-bottom: 15px;
   padding-right: 10px; */
   position: absolute;
@@ -32,6 +33,7 @@ body{background-color:black;}
 
 #temp_display{
   color:whitesmoke;
+  font-weight: bold;
   font-size: 130px;
   position: absolute;
   margin-left: 700px;
