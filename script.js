@@ -9,7 +9,7 @@ setInterval(function(){
     // var tempval=Math.floor(Math.random() * (100 - 50 + 1)) + 50;
     document.getElementById("speed_guage").innerHTML = speedval;
     // document.getElementById("temp_display").innerHTML = tempval;
-    if(speedval>18){
+    if(speedval>15){
       playSound();
       
     }
