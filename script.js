@@ -5,7 +5,7 @@ function request_fullscreen() {
 
 setInterval(function(){ 
     // document.getElementById("glow_circle").style.fill="#ff0000";
-    var speedval= Number.parseFloat((Math.random() * (20 - 8 + 1)) + 8).toFixed(2);
+    var speedval= Number.parseFloat((Math.random() * (19 - 8 + 1)) + 8).toFixed(2);
     // var tempval=Math.floor(Math.random() * (100 - 50 + 1)) + 50;
     document.getElementById("speed_guage").innerHTML = speedval;
     // document.getElementById("temp_display").innerHTML = tempval;
