@@ -20,12 +20,12 @@ setInterval(function(){
     let y = Math.floor((Math.random() * 100) + 1);
     let x = Math.floor((Math.random() * 100) + 1);
     let z = Math.floor((Math.random() * 100) + 1);
-    let percent = x + "%";
-    let percent2 = y + "%";
-    let percent1 = z + "%"
-    document.getElementById("html_prog").style.width = percent
-    document.getElementById("css_prog").style.width = percent1
-    document.getElementById("js_prog").style.width = percent2
+    let percent = x + '%';
+    let percent2 = y + '%';
+    let percent1 = z + '%';
+    document.getElementById("html_prog").style.width = percent;
+    document.getElementById("css_prog").style.width = percent1;
+    document.getElementById("js_prog").style.width = percent2;
 
 }
    
