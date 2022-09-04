@@ -1,25 +1,253 @@
 
+/* viewBox="0 0 1164.85 1111.11" */
+/* 1.04837 */
 
+/* viewBox="0 0 629.019629 600" */
+
+/* #hks{
+  width: 600px;
+  height: auto;
+} */
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+*{
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  font-family: "DS-Digital";
+}
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2e2e2e;
+
+} */
+.container{
+  position: absolute;
+  top: 100px;
+  left:520px;
+
+  width: 300px;
+}
+/* .container h2{
+  color: #fff;
+} */
+.container .skills{
+  position: relative;
+  display: flex;
+  margin: 10px 0;
+  padding: 28px 5px 18px;
+  background: linear-gradient(#2d2c2c 0%, rgb(21, 21, 21) 10%, #222);
+  border-radius: 2px;
+  overflow: hidden;
+  border: 2px solid #000;
+  transition: 1s;
+}
+/* .container:hover .skills{
+  opacity: 0.05;
+}
+.container .skills:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+.container .skills:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, .1);
+} */
+.container .skills .Name{
+  position: relative;
+  width: 110px;
+  text-align: center;
+  color: #fff;
+  margin-top: 0 px;
+  text-transform: uppercase;
+  font-size: larger;
+}
+/* .container .skills .value{
+  position: relative;
+  width: 40px;
+  text-align: left;
+  color: #fff;
+  margin-top: -2px;
+  text-transform: uppercase;
+} */
+.container .skills .percent{
+  position: relative;
+  width: calc(100% - 150px);
+  height: 20px;
+  margin: 0 10px;
+  border-radius: #151515;
+  box-shadow: inset 0 0 10px #000;
+  overflow: hidden;
+}
+.container .skills .percent .progress{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: inset 0 0 5px #000;
+  animation: animate 4s ease-in-out forwards;
+}
+@keyframes animate{
+  from{
+    width: 0;
+  }
+} 
+.container .skills:nth-child(2) .percent .progress{
+  background: linear-gradient(45deg, #ff4000, #ff0000);
+}
+.container .skills:nth-child(3) .percent .progress{
+  background: linear-gradient(45deg, #fff200, #ffc800);
+}
+.container .skills:nth-child(4) .percent .progress{
+  background: linear-gradient(45deg, #00ff8c, #00e70c);
+}
+.container .skills:nth-child(5) .percent .progress{
+  background: linear-gradient(45deg, #22ffde, #2196f3);
+}
 body{background-color:black;}
 
 #speed_guage{
 
   position: absolute;
-  margin-top: 200px;
-  margin-left: 190px;
+  top: 190px;
+  left: 130px;
+  
 }
 
 #speed_display{
+  font-family: 'DS-Digital', sans-serif;
   color:#e60000;
   font-size: 120px;
   font-weight: 900;
   /* padding-bottom: 15px;
   padding-right: 10px; */
   text-shadow: 2px 2px 6px #b70e0e6d;
-  margin-top: -10px;
+  /* margin-top: -10px;
   margin-left: -55px;
-  position: absolute;
+  position: absolute; */
+  
 }
+#hks{
+
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2e2e2e;
+} */
+/* .container{
+  position: relative;
+  width: 300px;
+}
+.container h2{
+  color: #fff;
+}
+.container .skills{
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  padding: 24px 10px 18px;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #000;
+  transition: 0.5s;
+}
+/* .container .skills{
+  opacity: 0.05;
+}
+.container .skills:hover{
+  opacity: 1;
+  transform: scale(1.1);
+} */
+/* .container .skills:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, .1);
+}
+.container .skills .Name{
+  position: relative;
+  width: 110px;
+  text-align: right;
+  color: #fff;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.container .skills .value{
+  position: relative;
+  width: 40px;
+  text-align: left;
+  color: #fff;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.container .skills .percent{
+  position: relative;
+  width: calc(100% - 150px);
+  height: 20px;
+  margin: 0 10px;
+  border-radius: #151515;
+  box-shadow: inset 0 0 10px #000;
+  overflow: hidden;
+}
+.container .skills .percent .progress{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: inset 0 0 2px #000;
+  animation: animate 2s ease-in-out forwards;
+}
+@keyframes animate{
+  from{
+    width: 0;
+  }
+}
+
+.container .skills:nth-child(2) .percent .progress{
+  background: linear-gradient(45deg, #1fe6ff, #673ab7);
+}
+.container .skills:nth-child(3) .percent .progress{
+  background: linear-gradient(45deg, #3bc0ff, #33ff00);
+}
+.container .skills:nth-child(4) .percent .progress{
+  background: linear-gradient(45deg, #ffee54, #ff00ca);
+}
+.container .skills:nth-child(5) .percent .progress{
+  background: linear-gradient(45deg, #22ffde, #2196f3);
+} 
 
 
 
@@ -36,4 +264,4 @@ body{background-color:black;}
     margin-top: 475px;
     margin-left: 190px;
     
-} */
+} */ 

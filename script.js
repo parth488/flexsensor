@@ -9,14 +9,25 @@ setInterval(function(){
     // var tempval=Math.floor(Math.random() * (100 - 50 + 1)) + 50;
     document.getElementById("speed_guage").innerHTML = speedval;
     // document.getElementById("temp_display").innerHTML = tempval;
-    if(speedval>15){
+    if(speedval>18){
       playSound();
       
     }
+    change_prog();
+   }, 1500);
+  
+   function change_prog(){
+    let y = Math.floor((Math.random() * 100) + 1);
+    let x = Math.floor((Math.random() * 100) + 1);
+    let z = Math.floor((Math.random() * 100) + 1);
+    let percent = x + "%";
+    let percent2 = y + "%";
+    let percent1 = z + "%"
+    document.getElementById("html_prog").style.width = percent
+    document.getElementById("css_prog").style.width = percent1
+    document.getElementById("js_prog").style.width = percent2
 
-   }, 4500);
-  
-  
+}
    
    // Generate a random number between 2.5 and 10.75, including both 2.5 and 10.75, and specifying 2 decimal places
 // function generateRandomDecimalInRangeFormatted(min, max, places) {
