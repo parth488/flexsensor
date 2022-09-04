@@ -15,7 +15,7 @@ setInterval(function(){
     }
     change_prog();
    }, 1500);
-  
+    
    function change_prog(){
     let y = Math.floor((Math.random() * 100) + 1);
     let x = Math.floor((Math.random() * 100) + 1);
