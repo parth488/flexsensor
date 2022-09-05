@@ -23,7 +23,7 @@ setInterval(function(){
     let percent = x + '%';
     let percent2 = y + '%';
     let percent1 = z + '%';
-    document.getElementsByClassName("progress").style.width = percent;
+    // document.getElementsByClassName("progress").style.width = percent;
     document.getElementById("html_prog").style.width = percent;
     document.getElementById("css_prog").style.width = percent1;
     document.getElementById("js_prog").style.width = percent2;
