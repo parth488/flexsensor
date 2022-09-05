@@ -96,7 +96,7 @@
   border-radius: 2px;
   background: #fff;
   box-shadow: inset 0 0 5px #000;
-  animation: animate 4s ease-in-out forwards infinite;
+  animation: animate 4s ease-in-out forwards;
 }
 @keyframes animate{
   from{
