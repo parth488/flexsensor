@@ -98,6 +98,14 @@
   box-shadow: inset 0 0 5px #000;
   animation: animate 4s ease-in-out forwards infinite;
 }
+
+:root {
+  --width: 20%; 
+}
+#red {
+  width: var(--width);
+}
+
 @keyframes animate{
   from{
     width: 0;

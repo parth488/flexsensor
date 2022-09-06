@@ -35,3 +35,7 @@ setInterval(function(){
 //   let value = (Math.random() * (max - min + 1)) + min;
 //   return Number.parseFloat((Math.random() * (20 - 8 + 1)) + 8).toFixed(2);
 // }
+
+var time =  Math.floor((Math.random() * 100) + 1);
+var red = document.querySelector('#html_prog');
+red.style.setProperty('--width', time +'%');
