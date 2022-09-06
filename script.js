@@ -14,6 +14,9 @@ setInterval(function(){
       
     }
     change_prog();
+    var time =  Math.floor((Math.random() * 100) + 1);
+var red = document.querySelector('#html_prog');
+red.style.setProperty('--width', time +'%');
    }, 1500);
     
    function change_prog(){
